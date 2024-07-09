@@ -1,0 +1,21 @@
+.form-container {
+  background: white;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 70px;
+  width: 90%;
+  max-width: 500px;
+}
+.form-container button {
+  margin-top: 10px;
+}
+button{
+  color:blue;
+  border: solid black 2px;
+  background-color: rgb(113, 116, 133);
+  border-radius: 5px;
+}
+
+

@@ -1,0 +1,29 @@
+/* Testimonials.css */
+
+.testimonial-slide {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+  
+  .video-wrapper {
+    width: 100%;
+  }
+  
+  .text-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Adjust grid layout for larger screens */
+  @media (min-width: 600px) {
+    .testimonial-slide {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .text-wrapper {
+      text-align: left;
+    }
+  }
+  

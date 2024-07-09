@@ -1,0 +1,10 @@
+.FeaturesParent div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.FeaturesParent div:nth-child(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+}
